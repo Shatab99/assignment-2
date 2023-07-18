@@ -64,6 +64,31 @@
     }
 
 
+    /* Gamer scetion */
+    .gamer{
+        flex-direction: column;
+        
+    }
+
+    .gamer img{
+        margin-top: 300px;
+        width: 60%;
+    }
+    .gamer-content{
+        text-align: center;
+        width: 75%;
+        /* font-size: .8rem; */
+    }
+
+    .gamer-content p{
+        line-height: 19px;
+    }
+
+    .gamer-content h5{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
 
 
 }

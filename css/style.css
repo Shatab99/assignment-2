@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 
 
@@ -76,19 +75,20 @@ nav {
 .banner {
     max-width: 1440px;
     display: flex;
-    
+
 }
 
 .banner-content img {
     width: 100%;
     height: 100%;
 }
-.banner-content-des{
+
+.banner-content-des {
     margin-top: -400px;
     margin-left: 100px;
-} 
+}
 
-.banner-content-des h2{
+.banner-content-des h2 {
     font-weight: 600;
     margin-left: 8px;
 }
@@ -103,11 +103,12 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.banner-content-des li img{
+.banner-content-des li img {
     width: 2%;
     margin-right: 7px;
 }
-.banner-content-des li{
+
+.banner-content-des li {
     font-size: .7rem;
     color: #534C64;
     margin: 10px 0px;
@@ -116,11 +117,12 @@ nav {
 
 
 
-.banner-btn{
+.banner-btn {
     margin: 15px 0px;
-    
+
 }
-.sign-in{
+
+.sign-in {
     background-color: #FF42A5;
     padding: 10px 20px;
     border-radius: 48px;
@@ -131,7 +133,7 @@ nav {
     cursor: pointer;
 }
 
-.rouge{
+.rouge {
     background-color: #4EC5F7;
     padding: 10px 20px;
     border-radius: 48px;
@@ -142,8 +144,58 @@ nav {
     cursor: pointer;
 }
 
-.banner-img img{
+.banner-img img {
     width: 90%;
     height: 101%;
 }
 
+/* Gamer section */
+
+.gamer {
+    max-width: 1440px;
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    align-items: center;
+    justify-content: center;
+    gap: 3px 175px;
+    /* height: 400px; */
+
+}
+
+.gamer img {
+    width: 40%;
+}
+
+.gamer-content {
+    text-align: right;
+    width: 30%;
+
+}
+
+.gamer-content p {
+    font-size: .8rem;
+    padding: 10px 0;
+
+    color: #534C64;
+}
+
+.gamer-content h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-content button{
+    margin: 10px  0 ;   
+
+}
+.gamer-content h5{
+    color: #534C64;
+    font-weight: 400;
+}
+
+.gamer-content h4{
+    color: #534C64;
+    margin-top: 5px;
+}
