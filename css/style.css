@@ -253,25 +253,24 @@ nav {
 }
 
 .play-button-cont{
-    height: ;
+    height: 350px;
 }
 
-
-.play-button{
+.play-button {
     width: 100%;
-  
-    
+
+
 }
 
 
- .bg-img {
+.bg-img {
     position: relative;
-    bottom:  0px;
+    bottom: 0px;
     left: 78px;
-  
+
 }
 
-.play-btn  {
+.play-btn {
     width: 30px;
     height: 30px;
     position: relative;
@@ -285,11 +284,12 @@ nav {
     position: relative;
     bottom: 122px;
     right: 17px;
-    color:#FF42A5;
-    
-    
+    color: #FF42A5;
+
+
 }
-.img-init{
+
+.img-init {
     position: relative;
     bottom: 280px;
     border: 0;
@@ -297,11 +297,53 @@ nav {
 
 .img-init:hover {
     visibility: hidden;
-    
+
+
 }
 
-.play-btn-cont{
+.play-btn-cont {
     position: relative;
     bottom: 282px;
     left: 5px;
+}
+
+
+/* Play section  */
+
+.play {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 320px;
+}
+
+.play-content  {
+    text-align: right;
+    font-size: 1rem;
+    width: 260px;
+    line-height: 196%;
+}
+
+.play-content h2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-img {
+    margin-left: 80px;
+}
+
+.play-img :nth-child(1) {
+    width: 40%;
+}
+
+.play-img :nth-child(2) {
+    width: 20%;
+    position: relative;
+    top: 50px;
+    right:340px;
+
 }
