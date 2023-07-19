@@ -155,6 +155,35 @@ body{
     } 
 
 
+    /* Icon section */
+    .gicon{
+        display: grid;
+        
+    }
+    .gicon-img-row-1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .gicon-img-row-2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+
+    /* Footer part */
+
+    .footer-cont {
+        flex-wrap: wrap;
+    }
+
+    footer p{
+        margin-left: 100px;
+    }
+
+
+
+
+
 
 
 }
