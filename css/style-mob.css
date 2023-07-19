@@ -1,7 +1,9 @@
 @media screen and (max-width : 576px) {
 
 
-
+body{
+    overflow-x: hidden;
+}
 
     /* Header part */
     nav {
@@ -117,11 +119,40 @@
     .img-init  {
         pointer-events: none;
         margin-top:300px ;
+    }
+
+    /* play section */
+
+    .play{
+        flex-direction: column;
         
         
         
     }
+    .play-img{
+        width: 300px;
+        padding: 0px 0px;
+        margin-left: -200px;
+        
+       
+    }
 
+    .play-img :nth-child(1){
+        width: 14rem;
+        margin-left: -100px;
+    }
+    .play-img :nth-child(2){
+        width: 6rem;
+        margin-left: 300px;
+        margin-top: -350px;
+    }
+
+
+    .play-content{
+        text-align: center;
+        margin-right: 0px;
+        margin-left: -300px;
+    } 
 
 
 
