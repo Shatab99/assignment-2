@@ -367,13 +367,17 @@ nav {
     justify-content: space-evenly;
 }
 
-.gicon-img{
+.gicon-img li{
     display: flex;
     align-items: center; 
 }
 .gicon-img img{
     width: 2.5rem;
     pointer-events: none;
+}
+.gicon-img p{
+    pointer-events: none;
+    margin-left: 5px;
 }
 
 .gicon-img :hover {
